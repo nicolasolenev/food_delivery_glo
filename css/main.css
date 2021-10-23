@@ -3,8 +3,7 @@
 }
 
 body {
-  font-family: 'Roboto',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -16,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   padding: 10px 0;
+  margin-bottom: 20px;
 }
 
 .auth {
@@ -32,20 +32,23 @@ body {
   border-radius: 10px;
   background: rgba(238, 238, 238, 0.71);
   flex-grow: 1;
-  position: relative;
-
+  /* position: relative; */
 }
 
 .search-button {
   background-color: transparent;
   border: none;
-  position: absolute;
+  /* position: absolute;
   height: 100%;
   right: 0;
-  top: 0;
+  top: 0; */
   padding-right: 18px;
   padding-left: 18px;
   cursor: pointer;
+}
+
+.search-icon {
+  display: block;
 }
 
 .search-input {
@@ -72,7 +75,7 @@ body {
 .shopping-cart {
   width: 49px;
   height: 49px;
-  background: #F66A15;
+  background: #f66a15;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -83,7 +86,7 @@ body {
 }
 
 .shopping-counter {
-  background: #FFAF19;
+  background: #ffaf19;
   border-radius: 50%;
   color: #000;
   position: absolute;
@@ -92,4 +95,136 @@ body {
   padding: 5px;
   font-size: 8px;
   line-height: 9px;
+}
+
+.main__card {
+  width: 100%;
+  height: 399px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  padding: 76px 101px;
+  margin-bottom: 50px;
+}
+
+.summer {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.43) 40.45%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../img/summer.png) no-repeat center / cover;
+}
+
+.main__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 51px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.main__subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 32px;
+}
+
+.main__card_container {
+  max-width: 390px;
+}
+
+.button {
+  border-radius: 25px;
+  padding: 13px 52px;
+  text-decoration: none;
+}
+
+.main__card__button {
+  background: #f47322;
+  color: #fff;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__button {
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #5f5f61;
+}
+
+.offers__card__header__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.offers__card__header__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 168px;
+}
+
+.offers {
+  color: #fff;
+}
+
+.offers__card {
+  width: 570px;
+  height: 380px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 36px 32px;
+  border-radius: 20px;
+}
+
+.offers__card__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.offers__card__footer__price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+
+.offers__card__footer__delivery-price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 25px;
+}
+
+.sweet-basket {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.43) 40.45%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../img/offer_1.png) no-repeat center / cover;
+}
+
+.min-efforts {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.43) 40.45%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../img/offer_2.png) no-repeat center / cover;
 }
