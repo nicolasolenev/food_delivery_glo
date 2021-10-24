@@ -152,6 +152,7 @@ body {
 .offers {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 110px;
 }
 
 .offers__button {
@@ -227,4 +228,313 @@ body {
       rgba(0, 0, 0, 0) 100%
     ),
     url(../img/offer_2.png) no-repeat center / cover;
+}
+
+.week-delivery__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.week-delivery__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  margin-bottom: 47px;
+}
+
+.week-delivery__card {
+  position: relative;
+  width: 275px;
+  height: 182px;
+  margin-bottom: 30px;
+}
+
+.week-delivery__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.week-delivery__tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 21px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+.health {
+  background: #d0fd89;
+  color: #49494f;
+}
+
+.veg {
+  background: #aebc41;
+  color: #fff;
+}
+
+.meat {
+  background: #b86b78;
+  color: #fff;
+}
+
+.bird {
+  background: #d68334;
+  color: #fff;
+}
+
+.fish {
+  background: #cd6255;
+  color: #fff;
+}
+
+.for-kids {
+  background: #fffdbf;
+  color: #49494f;
+}
+
+.for-parents {
+  background: #f6fdc8;
+  color: #49494f;
+}
+
+.for-celebrates {
+  background: #fef7fe;
+  color: #49494f;
+}
+
+.food-categories {
+  background: #f6f6f6;
+  padding-bottom: 75px;
+}
+
+.food-categories__main-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+.food-categories__tabs ul {
+  display: flex;
+  padding: 0;
+  margin-bottom: 62px;
+}
+
+.food-categories__tabs ul li {
+  list-style: none;
+}
+
+.food-categories__tab.active {
+  color: #f37321;
+}
+
+.food-categories__tab {
+  text-decoration: none;
+  color: #49494f;
+  margin-right: 50px;
+}
+
+.food-categories__cards {
+  display: flex;
+  margin-bottom: 62px;
+  justify-content: space-between;
+}
+
+.food-categories__card {
+  width: 270px;
+  /* height: 471px; */
+  border-radius: 20px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.food-categories__img {
+  height: 192px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.food-categories__desc {
+  margin-top: 21px;
+  margin-left: 23px;
+  margin-right: 27px;
+  margin-bottom: 36px;
+}
+
+.food-categories__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  padding-top: 0;
+  margin-bottom: 13px;
+}
+
+.food-categories__subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #b9b9be;
+}
+
+.food-categories__price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.food-categories__price-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 23px;
+}
+
+.food-categories__price-left .price {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 23px;
+  color: #4b4b51;
+}
+
+.food-categories__price-left .mass {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #aaaab1;
+}
+
+.to-basket {
+  display: block;
+  border: 2px solid #f37321;
+  box-sizing: border-box;
+  border-radius: 33px;
+  background: transparent;
+  width: 125px;
+  height: 50px;
+  margin-right: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f37321;
+  cursor: pointer;
+}
+
+.food-categories__more-categoreis {
+  display: block;
+  text-align: center;
+  margin-top: 78px;
+}
+
+.food-categories__more-categoreis a {
+  width: 315px;
+  height: 50px;
+  border: 2px solid #f37321;
+  box-sizing: border-box;
+  border-radius: 33px;
+  padding: 15px 105px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f37321;
+  text-decoration: none;
+}
+
+.advantages {
+  margin-bottom: 202px;
+}
+
+.advantages__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  margin-top: 100px;
+  margin-bottom: 52px;
+}
+
+.advantages__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__card {
+  width: 270px;
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  text-align: center;
+}
+
+.advantages__card__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+.advantages__img {
+  margin-top: 30px;
+  margin-bottom: 34px;
+}
+
+.advantages__card__desc {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #49494f;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  margin-bottom: 25px;
+  max-width: 223px;
+}
+
+.footer {
+  background: #f6f6f6;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-right: 50px;
+}
+
+.footer__contacts-left a {
+  margin-right: 50px;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.footer__contacts-right a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footer__contacts-right a:last-child {
+  margin-right: 0;
 }
